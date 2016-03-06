@@ -21,6 +21,13 @@ body
   font-weight:bold;
 }
 
+.tallSection
+{
+
+  background-color: yellow;
+  height:1000px;
+}
+
 p
 {
   margin-top:30px;
