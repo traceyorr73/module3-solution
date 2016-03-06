@@ -1,0 +1,50 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  padding:0px;
+  margin:0px;
+}
+
+body
+{
+  font-family: Arial, Helvetica, sans serif;
+}
+.menuTitle {
+  margin: 15px;
+  font-size:1.75em;
+  font-weight:bold;
+}
+
+.foodTitle
+{
+  font-size:1.25em;
+  font-weight:bold;
+}
+
+.tallSection
+{
+
+  background-color: yellow;
+  height:1000px;
+}
+
+p
+{
+  margin-top:30px;
+}
+
+section
+{
+	background-color:#b3b3b3;
+	border:black 1px solid;
+	position:relative;
+  margin:20px;
+  padding:20px;
+  padding-top:0px;
+}
+
+@media (min-width: 10px) {
+  .navbar {
+    border-radius: 0px;
+  }
+}
